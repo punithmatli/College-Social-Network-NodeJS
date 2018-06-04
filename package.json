@@ -1,0 +1,26 @@
+{
+  "name": "socialnetwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "amrita.js",
+  "scripts": {
+    "start": "node amrita"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/punithmatli/College-Social-Network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/punithmatli/College-Social-Network/issues"
+  },
+  "homepage": "https://github.com/punithmatli/College-Social-Network#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mongojs": "^2.6.0"
+  }
+}

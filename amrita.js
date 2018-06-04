@@ -9,7 +9,7 @@ var mongojs=require('mongojs');
 var db=mongojs('mongodb://punith29:123456a@ds016718.mlab.com:16718/punith29',['admin']);
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(session({secret:'now'}))
-
+app.set('port',process.env.PORT||5000)
 app.get('/signup',function(req,res) {
 if(req.session.users==true){
 db.admin.find({},function(error,docss){			
@@ -95,6 +95,6 @@ app.get('/logout',function (req,res) {
 			})
 			res.redirect('/login');
 })
-app.listen(1111,function() {
+app.listen(app.get('port'),function() {
 	console.log('1111 listening');
 })
