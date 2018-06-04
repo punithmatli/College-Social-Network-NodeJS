@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="row gray">
+
+	<% for(i=0;i<result.length;i++){ %>
+	<div class="col-md-4">
+<h4>name:<%= result[i].name %></h4>
+<h4>email:<%= result[i].email %></h4>
+<h4>Year of birth:<%= result[i].yearofbirth %></h4>
+</div>
+<% } %>
+</div>
+	<% var a=10 %>
+	<% var str="abc" %>
+<select>
+<% for(i=0;i<a;i++){ %>
+<option><%= i %></option>
+<% } %>
+</select>
+<h1><%= str %>     d</h1>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../social.css">
+</head>
+<body class="ve">
+	 <div class="row" style="min-height: 80px;background-color:	darkseagreen">
+		<div class="col-md-1"></div>
+		<div class="col-md-6"><h2 style="color: white"><b>Amrita Social Network</b></h2></div>
+		<div class="col-md-5" style="padding-left:300px;padding-top:20px;"><a href="/logout" no-style style="color: white;" onmouseover="black"><button type="button" class="btn btn-default">LogOut</button></a>
+		</div>
+
+	</div><br><br>
+	<h2 style="margin-left: 100px;"> <%= re[0].name %> Profile</h2>
+	<div class="row" style="padding:10px;padding-left: 100px;">
+		<div class="col-md-3">
+	<div class="thumbnail" style="min-height: 255px;">
+		<img src="/" alt=".."><br><br><br><br><br><br><br><br><hr>
+		Email:<%= re[0].email %><br><br>
+		Username:<%= re[0].username %>
+	</div>
+</div>
+</div>
+</body>
+</html>

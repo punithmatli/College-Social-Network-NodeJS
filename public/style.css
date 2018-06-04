@@ -1,0 +1,93 @@
+
+/*h1{
+	color:black;
+	margin-top: 120px;
+	padding-top: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-bottom-color: white;
+	border-color: white;
+
+}
+h2{
+
+	background-color: pink;
+	color:blue;
+	border-image-source: url(file:///C:/Users/PUNITH%20CHOWDARY/Documents/Royal_Challengers_Bangalore_Logo_2016.svg.png);
+	border-image: url(file:///C:/Users/PUNITH%20CHOWDARY/Documents/Royal_Challengers_Bangalore_Logo_2016.svg.png);
+	border-image-width: 50px;
+	border-width: 50px;
+}*/
+.im{
+	height:100px;
+	width:100px;
+}
+#prr{
+	margin-top: 100px;
+	padding-top: 50px;
+	text-align: center;
+}
+#pr{
+	padding-right: 100px;
+	margin-left: 50px;
+}
+.xyz{
+	min-height: 100px;
+	background: red;
+	margin:5px;	
+}
+.abc{
+	min-height: 100px;
+	margin:5px;
+	background: yellow;
+}
+.bo{
+	border-style: solid;
+	border-width:2px;
+}
+.minheightt{
+	min-height: 600px;
+}
+.heightt{
+	min-height: 150px;
+}
+.black{
+	background: black;
+}
+.red{
+	background-color: red;
+}
+.green{
+	background: green;
+}
+.yellow{
+	background-color: yellow;
+}
+.gray{
+	background-color: gray;
+}
+.minheight{
+	min-height: 95px;
+}
+.hh{
+min-height: 75px;
+}
+.silver{
+	background-color: silver;
+}
+.pt{
+	padding-top: 27px;
+}
+.pddd{
+	padding-left: 100px;
+}
+.blue
+{
+	background-color:#1B2D55;
+}
+.yg{
+	background-color:rgb(197,255,192);
+}
+.thb{
+	background-color: #C5D1EB  ;
+}

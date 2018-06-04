@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="social.css">
+</head>
+<body class="silver sf">
+	<div class="row" style="background-color:#1a1a1a">
+		<div class="col-md-12" align="center">
+			<h2 style="color:white;padding-bottom: 10px;"><b>College Social Network Register</b></h2>
+
+		</div>
+	</div>
+	<div class="row silver">
+		<div class="col-md-4"></div>
+		<div class="col-md-4 pt">
+			<form action="/sdt" method="POST">
+							
+				<br>
+				<b>YourName</b><br>
+				<div class="input-group"> <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input type="text" class="form-control input-md" required="true" placeholder="Enter your Name" name="name"></div><br>
+				<b>YourEmail</b><br>
+				<div class="input-group inner-addon"><span class="input-group-addon">@</span><input type="e-mail" class="form-control input-md" required="true" placeholder="Enter your Email" name="email"></div><br>
+				<b>Username</b><br>
+				<div class="input-group inner-addon"><span class="input-group-addon">/</span><input type="text" class="form-control input-md" name="username" required="true" placeholder="Enter your Username"></div><br>
+				<b>Password</b><br>
+				<div class="input-group inner-addon"><span class="input-group-addon"><b>.</b></span><input type="password" class="form-control input-md" name="password" required="true" placeholder="Enter your Password"></div><br>
+				<button type="submit" style="margin-left: 167px;" class="btn btn-lg btn-success">Register</button><hr>
+				<h5 align="center">Already a User?</h5>
+				<a href="/login"><button style="margin-left: 187px;" type="button" class="btn btn-primary">Login</button></a><br><br>
+			</form>
+
+		</div>
+		<div class="col-md-4"></div>
+
+	</div>
+</body>
+</html>
