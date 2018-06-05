@@ -6,7 +6,9 @@ app.set('view engine','ejs')
 var bodyParser=require('body-parser');
 var session=require('express-session');
 var mongojs=require('mongojs');
-var db=mongojs('mongodb://punith29:123456a@ds016718.mlab.com:16718/punith29',['admin']);
+var db=mongojs('mongodb://punith29:123456a@ds247670.mlab.com:47670/socialnetwork',['admin']);
+
+//mongodb://punith29:123456a@ds016718.mlab.com:16718/punith29
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(session({secret:'now'}))
 app.set('port',process.env.PORT||5000)
